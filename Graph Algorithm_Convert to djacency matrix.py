@@ -1,5 +1,6 @@
 import sys
 
+# importing input from local machine
 with open(sys.argv[1], 'r') as file:
     input = file.read()
     line = input.strip().split('\n')
